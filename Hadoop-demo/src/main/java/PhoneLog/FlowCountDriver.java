@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class FlowCountDriver {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
-        args = new String[]{"F:\\downLoad\\phone_data.txt", "E:\\WorkPlace\\FlowCount\\output"};
+        args = new String[]{"F:\\Downloads\\phone_data.txt", "D:\\workplace\\FlowCount\\output"};
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf);
 
